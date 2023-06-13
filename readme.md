@@ -76,7 +76,7 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
 klik tombol create service
 
 16. Pilih Deploy one revision from an existing container image, lalu tekan select
-![CloudRun2](tutor/lask_2.png)
+![CloudRun2](tutor/flask_2.png)
 
 17. Pilih Container Registry, lalu pilih container image yang sudah kita buat sebelumnya pada poin 14
 ![CloudRun3](tutor/flask_3.png)
