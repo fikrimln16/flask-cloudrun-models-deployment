@@ -51,13 +51,13 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
     Ganti [PROJECT_ID] dengan ID proyek Google Cloud Platform yang telah Anda tentukan sebelumnya.
     
  8. Setelah proses pembangunan selesai, verifikasi bahwa kontainer Docker lokal berjalan dengan menjalankan perintah berikut:
-    ` docker run -p 8080:8080 gcr.io/[PROJECT_ID]/Flask-app `
+    ` docker run -p 8080:8080 gcr.io/[PROJECT_ID]/flask-app `
     Pastikan tidak ada kesalahan dan aplikasi Flask berjalan dengan baik di localhost.
 
 9. Jika langkah sebelumnya berhasil, berhenti dan hapus kontainer Docker yang berjalan dengan menekan Ctrl+C di terminal atau command prompt.
 
 10. Untuk menerbitkan kontainer Docker ke Google Cloud Container Registry, jalankan perintah berikut:
-    ` docker push gcr.io/[PROJECT_ID]/Flask-app `
+    ` docker push gcr.io/[PROJECT_ID]/flask-app `
     Kontainer akan diunggah ke Container Registry di proyek Google Cloud Platform yang sesuai.
     
 11. Selanjutnya, buat layanan Cloud Run dengan menjalankan perintah berikut pada asia-southeast2(jakarta): 
