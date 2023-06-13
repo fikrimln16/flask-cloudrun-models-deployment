@@ -72,18 +72,18 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
     `gcloud builds submit --tag gcr.io/[project-id-kalian]/flask-model-deployment`
 
 15. Buka Cloud Run pada google cloud platform,
-![CloudRun](flask_1.png)
+![CloudRun](tutor/flask_1.png)
 klik tombol create service
 
 16. Pilih Deploy one revision from an existing container image, lalu tekan select
-![CloudRun2](flask_2.png)
+![CloudRun2](tutor/lask_2.png)
 
 17. Pilih Container Registry, lalu pilih container image yang sudah kita buat sebelumnya pada poin 14
-![CloudRun3](flask_3.png)
+![CloudRun3](tutor/flask_3.png)
 
 18. Lalu setting region sesuai kebutuhan anda, lalu tekan create
-![CloudRun4](flask_4.png)
+![CloudRun4](tutor/flask_4.png)
 
 19. Jika sudah berhasil, maka tampilan akan seperti ini, dan tersedia url yang sudah diberikan
-![CloudRun5](flask_5.png)
+![CloudRun5](tutor/flask_5.png)
 
