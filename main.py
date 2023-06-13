@@ -6,6 +6,10 @@ app = Flask(__name__)
 # Load model kalian disini
 model = tf.keras.models.load_model('linear.h5')
 
+@app.route('/', methods=['GET'])
+def home():
+    return "API is running!"
+
 @app.route('/predict', methods=['POST'])
 def predict():
     # Get the input data from the request
