@@ -68,4 +68,4 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
 13. Setelah proses deploy selesai, GCP akan memberikan URL yang dapat digunakan untuk mengakses aplikasi Flask yang dideploy. Salin URL tersebut dari output dan coba akses di web browser atau dengan menggunakan      perangkat lunak pengujian API seperti Postman.
 
 14. Jika cara 11 dan 12 tidak bisa, maka lakukan lah cara manual seperti ini :
-`![CloudRun](flask_1.png)`
+![CloudRun](flask_1.png)
