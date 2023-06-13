@@ -88,4 +88,6 @@ klik tombol create service
 ![CloudRun5](tutor/flask_5.png)
 
 20. Setelah proses deploy selesai, GCP akan memberikan URL yang dapat digunakan untuk mengakses aplikasi Flask yang dideploy. Salin URL tersebut dari output dan coba akses di web browser atau dengan menggunakan      perangkat lunak pengujian API seperti Postman.
+![CloudRun7](tutor/flask_7.png)
 ![CloudRun6](tutor/flask_6.png)
+
