@@ -61,8 +61,11 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
     Kontainer akan diunggah ke Container Registry di proyek Google Cloud Platform yang sesuai.
     
 11. Selanjutnya, buat layanan Cloud Run dengan menjalankan perintah berikut pada asia-southeast2(jakarta): 
-    ` gcloud run deploy --image gcr.io/[PROJECT_ID]/Flask-model-deployment --platform managed --region asia-southeast2 --allow-unauthenticated Flask-model-ml `
+    ` gcloud run deploy --image gcr.io/[PROJECT_ID]/flask-model-deployment --platform managed --region asia-southeast2 --allow-unauthenticated flask-model-ml `
  
 12. GCP akan meminta Anda untuk memilih wilayah (region) untuk mendeploy layanan Cloud Run. Pilih wilayah yang sesuai dengan kebutuhan Anda.
 
 13. Setelah proses deploy selesai, GCP akan memberikan URL yang dapat digunakan untuk mengakses aplikasi Flask yang dideploy. Salin URL tersebut dari output dan coba akses di web browser atau dengan menggunakan      perangkat lunak pengujian API seperti Postman.
+
+14. Jika cara 11 dan 12 tidak bisa, maka lakukan lah cara manual seperti ini :
+`![CloudRun](flask_1.png)`
