@@ -19,7 +19,7 @@ $ activate
 $ cd ..
 $ git clone https://github.com/fikrimln16/flask-cloudrun-models-deployment
 $ pip install -r requirements.txt
-$ uvicorn main:app --reload
+$ python main.py
 ```
 
 ## Cara deploy ke cloud-run menggunakan cloud SDK
