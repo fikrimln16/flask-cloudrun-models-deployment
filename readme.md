@@ -26,8 +26,8 @@ $ uvicorn main:app --reload
 ```
 $ gcloud init
 $ gcloud services enable run.googleapis.com
-$ gcloud builds submit --tag gcr.io/[project-id-kalian]/Flask-model-deployment
-$ gcloud run deploy --image gcr.io/[project-id-kalian]/Flask-model-deployment --platform managed --region asia-southeast2 --allow-unauthenticated Flask-model-ml
+$ gcloud builds submit --tag gcr.io/[project-id-kalian]/flask-model-deployment
+$ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --platform managed --region asia-southeast2 --allow-unauthenticated flask-model-ml
 ```
 
 ## Cara deploy ke cloud-run menggunakan Google Cloud Platform 
