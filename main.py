@@ -3,7 +3,7 @@ import tensorflow as tf
 
 app = Flask(__name__)
 
-# Load model kalian disini
+# Load model kalian disini seperti pada kasus ini menggunakan model linear
 model = tf.keras.models.load_model('linear.h5')
 
 @app.route('/', methods=['GET'])
