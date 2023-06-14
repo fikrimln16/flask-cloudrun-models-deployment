@@ -47,7 +47,7 @@ $ gcloud run deploy --image gcr.io/[project-id-kalian]/flask-model-deployment --
  6. Setelah proses pengklonan selesai, arahkan terminal atau command prompt ke direktori Flask yang baru saja dikloning.
  
  7. Build container Docker lokal dengan menjalankan perintah berikut:
-   ` docker build -t gcr.io/[PROJECT_ID]/Flask-app . `
+   ` docker build -t gcr.io/[PROJECT_ID]/flask-app . `
     Ganti [PROJECT_ID] dengan ID proyek Google Cloud Platform yang telah Anda tentukan sebelumnya.
     
  8. Setelah proses pembangunan selesai, verifikasi bahwa kontainer Docker lokal berjalan dengan menjalankan perintah berikut:
